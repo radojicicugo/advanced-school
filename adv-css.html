@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>advanced-css-grid</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+
+.container {
+max-width: 960px;
+width: 90%;
+margin: 0 auto;
+}
+
+
+.row {
+
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-start;
+}
+.row {
+row-gap: 4px;
+}
+
+
+.column {
+flex-basis: 10%;
+box-sizing: border-box;
+padding: 8px;
+}
+
+
+
+.box {
+width: 200px;
+height: 200px;
+background-color: #3db6e6;
+
+}
+
+img {
+width: 150px;
+height: 150px;
+text-align: center;
+}
+p {
+text-align: center;
+background-color: white;
+line-height: 40px;
+border:1px solid #3db6e6;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+.column {
+flex-basis: 33.33%;
+}
+}
+@media screen and (max-width: 768px) {
+.column {
+flex-basis: 50%;
+}
+}
+@media screen and (max-width: 414px) {
+.column {
+flex-basis: 100%;
+}
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div class="row">
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image One</p>
+</div>
+</div>
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image two</p>
+</div>
+</div>
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image three</p>
+</div>
+</div>
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image four</p>
+</div>
+</div>
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image five</p>
+</div>
+</div>
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image six</p>
+</div>
+</div>
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image seven</p>
+</div>
+</div>
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image eight</p>
+</div>
+</div>
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image nine</p>
+</div>
+</div>
+
+<div class="column">
+<div class="box">
+<img src="adv-css/placeholder-image.png" alt="slika">
+<p>Image ten</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+
+
+</html>
